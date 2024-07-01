@@ -13,13 +13,15 @@
     </head>
     <body>
         <h1>
-            <a href="/login">Logo</a>
+            <a href="/">Logo</a>
         </h1>
-        로그인페이지
+        <h2>로그인페이지</h2>
         <form method="post" action="/user/login">
-            <input type="text" name="userid">
-            <input type="password" name="userpw">
-            <input type="submit" value="로그인">
+            <ul>
+                <li>아이디: <input type='text' name='userid'></li>
+                <li>비밀번호: <input type='password' name='userpw'></li>
+            </ul>
+            <button type="submit">로그인</button>
         </form>
         </body>
 </html>
